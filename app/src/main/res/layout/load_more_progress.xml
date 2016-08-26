@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="horizontal"
               android:gravity="center"
+              android:padding="8dp"
+              android:background="#c3c3c3"
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
 
@@ -17,6 +19,7 @@
         android:id="@+id/progressBar"/>
 
     <TextView
+        android:layout_marginLeft="5dp"
         android:text="加载更多..."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
